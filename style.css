@@ -228,7 +228,7 @@ img:hover{
     flex-wrap: wrap;
 }
 
-.bar-box{
+.progress-bars .bar-box{
     /* background-color: white; */
     height: 30%;
     width: 90%;
@@ -239,7 +239,7 @@ img:hover{
     padding: 0 5%;
     flex-wrap: wrap;
 }
-.box{
+.progress-bars .box{
     content: " ";
     padding: 0;
     margin: 0;
@@ -263,7 +263,7 @@ img:hover{
     transition: 0.3s linear;
 }
 
-.box .text{
+.progress-bars .box .text{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 140%;
     font-weight: 600;
@@ -271,7 +271,7 @@ img:hover{
     margin-bottom: 15%;
 }
 
-.progress-line{
+.progress-bars .progress-line{
     width: 85%;
     height: 2%;
     /* backdrop-filter: blur(6px); */
@@ -287,7 +287,7 @@ img:hover{
 }
 
 
-#progress1{
+.progress-bars #progress1{
     width: 85%;
     margin: 0;
     padding: 0;
@@ -295,7 +295,7 @@ img:hover{
     background-color: white;
 }
 
-#progress2{
+.progress-bars #progress2{
     width: 70%;
     margin: 0;
     padding: 0;
@@ -303,7 +303,7 @@ img:hover{
     background-color: white;
 }
 
-#progress3{
+.progress-bars #progress3{
     width: 65%;
     margin: 0;
     padding: 0;
@@ -311,7 +311,7 @@ img:hover{
     background-color: white;
 }
 
-#progress4{
+.progress-bars #progress4{
     width: 70%;
     margin: 0;
     padding: 0;
@@ -319,7 +319,7 @@ img:hover{
     background-color: white;
 }
 
-#progress5{
+.progress-bars #progress5{
     width: 60%;
     margin: 0;
     padding: 0;
@@ -327,7 +327,7 @@ img:hover{
     background-color: white;
 }
 
-#progress6{
+.progress-bars #progress6{
     width: 90%;
     margin: 0;
     padding: 0;
@@ -335,7 +335,7 @@ img:hover{
     background-color: white;
 }
 
-#progress7{
+.progress-bars #progress7{
     width: 25%;
     margin: 0;
     padding: 0;
@@ -343,7 +343,7 @@ img:hover{
     background-color: white;
 }
 
-#progress8{
+.progress-bars #progress8{
     width: 40%;
     margin: 0;
     padding: 0;
@@ -351,7 +351,7 @@ img:hover{
     background-color: white;
 }
 
-#progress9{
+.progress-bars #progress9{
     width: 50%;
     margin: 0;
     padding: 0;
@@ -360,10 +360,12 @@ img:hover{
     data-aos: ease;
 }
 
-.box:hover{
+.progress-bars .box:hover{
     position: relative;
     transform: scale(1.07);
 }
+
+
 
 .section4{
     width: 100%;
