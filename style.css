@@ -42,7 +42,7 @@ ul{
     font-weight: 600;
 }
 
-section{
+.section1{
     display: flex;
 }
 
@@ -178,13 +178,13 @@ img:hover{
     transform: scale(1.2);
 }
 
-
+/* 
 .section3{
     height: 100vh;
     width: 100%;
     background-color: aliceblue;
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -204,7 +204,7 @@ img:hover{
     color: rgb(34, 34, 34);
 }
 
-
+ */
 
 /* .section3 h1{
     padding-left: 5%;
